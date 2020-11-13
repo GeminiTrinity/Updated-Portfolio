@@ -3,6 +3,11 @@ body {
     color: #00FF41;
 }
 
+.container {
+    min-height: 100%;
+    min-width: 95%;
+}
+
 .navbar {
     display: flex;
     justify-content: center;
@@ -20,41 +25,66 @@ ul {
 }
 
 h1 {
+    font-size: 38px;
+    text-align: center;
+}
+
+h2 {
     color: #00FF41;
-    font-size: 20px;
+    font-size: 30px;
 }
 
-.about-me {
-    margin-top: 5%;
-    padding: 5%;
+h3 {
+    font-size: 26px;
 }
 
-.container {
-    min-height: 100%;
-    min-width: 100%;
+h4 {
+    font-size: 22px;
 }
 
+h5, p {
+    font-size: 16px;
+}
 
+h6 {
+    font-size: 13px;
+}
 
+.about-me, .resume {
+    padding-top: 7%;
+}
+
+.left-column {
+    margin-top: 70px;
+}
 
 
 
 /* typewriter animation courtesy of https://bit.ly/3kngWOi */
-.typewriter h1 {
+.typewriter h2 {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .1em solid white; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .1em; /* Adjust as needed */
     animation: 
         typing 2s steps(15, end),
         blink-caret .75s step-end infinite;
 }
 
+.typewriter0 h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .1em solid white; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    letter-spacing: .04em; /* Adjust as needed */
+    animation: 
+        typing 2.5s steps(35, end),
+        blink-caret .75s step-end infinite;
+}
+
 .typewriter1 p {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .1em solid white; /* The typwriter cursor */
-    white-space: pre; /* Keeps the content on a single line */
+    white-space: nowrap; /* Keeps the content on a single line */
     letter-spacing: .04em; /* Adjust as needed */
     animation: 
         typing 2.8s steps(35, end),
@@ -64,21 +94,50 @@ h1 {
 .typewriter2 p {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .1em solid white; /* The typwriter cursor */
-    white-space: pre; /* Keeps the content on a single line */
+    white-space: nowrap; /* Keeps the content on a single line */
     letter-spacing: .04em; /* Adjust as needed */
     animation: 
-        typing 3.5s steps(70, end),
+        typing 4.4s steps(75, end),
         blink-caret .75s step-end infinite;
 }
 
 .typewriter3 p {
-    animation-delay: 2s;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .1em solid white; /* The typwriter cursor */
-    white-space: pre; /* Keeps the content on a single line */
+    white-space: nowrap; /* Keeps the content on a single line */
     letter-spacing: .04em; /* Adjust as needed */
     animation: 
-        typing 5s steps(100, end),
+        typing 4.8s steps(80, end),
+        blink-caret .75s step-end infinite;
+}
+
+.typewriter4 h4 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .08em solid white; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    letter-spacing: .02em; /* Adjust as needed */
+    animation: 
+        typing 3s steps(40, end),
+        blink-caret .75s step-end infinite;
+}
+
+.typewriter5 h5 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .1em solid white; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    letter-spacing: .02em; /* Adjust as needed */
+    animation: 
+        typing 3s steps(35, end),
+        blink-caret .75s step-end infinite;
+}
+
+.typewriter6 h6 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .1em solid white; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    letter-spacing: .02em; /* Adjust as needed */
+    animation: 
+        typing 3s steps(35, end),
         blink-caret .75s step-end infinite;
 }
 
@@ -91,5 +150,5 @@ h1 {
 /* The typewriter cursor effect */
 @keyframes blink-caret {
     from, to { border-color: transparent }
-    30% { border-color: white; }
+    20% { border-color: white; }
 }
