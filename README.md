@@ -13,3 +13,5 @@ This project is licensed under the terms of the MIT license.
 
 Repository: https://github.com/GeminiTrinity/Updated-Portfolio
 Website: https://geminitrinity.github.io/Updated-Portfolio/
+
+![image](https://user-images.githubusercontent.com/70424037/99175096-cb44b080-26d8-11eb-9d63-016a49fcf990.png)
